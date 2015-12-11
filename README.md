@@ -16,3 +16,7 @@ su - postgres
 Then create a user:
 
 create role myapp with createdb login password 'password1';
+
+rails new myapp --database=postgresql
+
+rake db:setup
