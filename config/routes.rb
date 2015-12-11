@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
-  
-  root 'home#index'
+  scope '/api' do
+    namespace :v1, defaults: { format: :json } do
+
+      resources :articles, except: [:new, :edit]
+
+    end
+  end
 end
