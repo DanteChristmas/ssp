@@ -55,6 +55,12 @@
         'url': 'http://angular-ui.github.io/bootstrap/',
         'description': 'Bootstrap components written in pure AngularJS by the AngularUI Team.',
         'logo': 'ui-bootstrap.png'
+      },
+      {
+        'title': 'Sass (Ruby)',
+        'url': 'http://sass-lang.com/',
+        'description': 'Original Syntactically Awesome StyleSheets implemented in Ruby',
+        'logo': 'ruby-sass.png'
       }
     ];
 

@@ -12,10 +12,6 @@
         controller: 'MainController',
         controllerAs: 'main'
       })
-      .when('/articles',{
-        templateUrl: 'app/components/articles/articles.html',
-        controller: 'ArticlesController'
-      })
       .otherwise({
         redirectTo: '/'
       });
