@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "SSP asset build and deployment processes.",
   "main": "gulpfile.js",
+  "node": "5.0.0",
   "scripts": {
     "build": "gulp build",
-    "deploy": "gulp deploy"
+    "deploy": "gulp deploy",
+    "postinstall": "gulp"
   },
   "repository": {
     "type": "git",
